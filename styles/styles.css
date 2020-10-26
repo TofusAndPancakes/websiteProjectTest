@@ -80,6 +80,12 @@ body {
     margin-left: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .menuNavDesc {
+      display: none;
+  }
+}
+
 /* Menu Nav Fonts */
 .menuNavTitle h1 {
     font-family: 'Kosugi', sans-serif;
@@ -331,7 +337,6 @@ body {
       width: 100%;
   }
 }
-
 
 .webContent p {
     font-family: 'Merriweather Sans', san-serif;
