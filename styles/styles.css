@@ -553,7 +553,7 @@ body {
 .footer {
     width: 100%;
     height: auto;
-    min-height: 130px;
+    min-height: 70px;
     position: relative;
     float: left;
     background-color: #15161B;
@@ -565,7 +565,7 @@ body {
     padding-top: 40px;
     margin: auto;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 /* Footer Text */
