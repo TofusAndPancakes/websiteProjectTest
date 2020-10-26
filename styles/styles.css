@@ -334,6 +334,10 @@ body {
 
 @media only screen and (max-width: 600px) {
   .webContent .container {
+      width: 80%;
+  }
+
+  .artistSection .webContent .container {
       width: 100%;
   }
 }
