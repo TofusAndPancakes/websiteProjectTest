@@ -11,18 +11,6 @@ body {
 }
 
 /* Menu */
-.menuNav {
-    width: 50px;
-    height: 100%;
-    min-height: 840px;
-    position: absolute;
-    float: left;
-    background-color: red;
-    left: 20px;
-    z-index: 1;
-}
-
-@media only screen and (max-height: 670px){
   .menuNav {
       width: 230px;
       height: calc(1.1 * 100vh);
@@ -33,7 +21,6 @@ body {
       left: 20px;
       z-index: 1;
   }
-}
 
 .menuNavTopperDetail {
     width: 230px;
