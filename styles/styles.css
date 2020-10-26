@@ -11,16 +11,16 @@ body {
 }
 
 /* Menu */
-  .menuNav {
-      width: 230px;
-      height: calc(1.1 * 100vh);
-      min-height: 840px;
-      position: absolute;
-      float: left;
-      background-color: #ffffff;
-      left: 20px;
-      z-index: 1;
-  }
+.menuNav {
+    width: 230px;
+    height: calc(1.1 * 100vh);
+    min-height: 840px;
+    position: absolute;
+    float: left;
+    background-color: #ffffff;
+    left: 20px;
+    z-index: 1;
+}
 
 .menuNavTopperDetail {
     width: 230px;
@@ -309,6 +309,7 @@ body {
     position: relative;
     float: left;
     background-color: #ffffff;
+    justify-content: center;
 }
 
 .genreSection .webContent {
@@ -324,6 +325,13 @@ body {
     width: 60%;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .webContent .container {
+      width: 100%;
+  }
+}
+
 
 .webContent p {
     font-family: 'Merriweather Sans', san-serif;
@@ -406,12 +414,14 @@ body {
 .historyMusicSide img {
     width: 180px;
     height: auto;
+    margin: auto;
     position: relative;
     vertical-align: middle;
 }
 
 .historyMusicSide audio {
     width: 180px;
+    margin: auto;
     position: relative;
 }
 
