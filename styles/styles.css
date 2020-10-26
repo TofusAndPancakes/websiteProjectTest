@@ -1,0 +1,567 @@
+/* Basis */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #E9E5DC;
+    overflow-x: hidden;
+}
+
+/* Menu */
+.menuNav {
+    width: 230px;
+    height: calc(1.1 * 100vh);
+    min-height: 840px;
+    position: absolute;
+    float: left;
+    background-color: #ffffff;
+    left: 20px;
+    z-index: 1;
+}
+
+.menuNavTopperDetail {
+    width: 230px;
+    height: 20px;
+}
+
+.menuNavTopper {
+    width: 230px;
+    height: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.menuNavBorderLeft {
+    width: 20px;
+    height: 480px;
+    position: relative;
+    float: left;
+}
+
+.menuNavTitle {
+    height: 480px;
+    width: 100px;
+    position: relative;
+    float: left;
+    background-color: #3E63DD;
+}
+
+.menuNavTitleDesc {
+    height: 480px;
+    position: relative;
+    float: left;
+}
+
+.englishTranslation {
+    height: 10px;
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 45px;
+}
+
+.menuNavBottom {
+    height: 70px;
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+.menuNavDesc {
+    height: 200px;
+    width: 180px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+/* Menu Nav Fonts */
+.menuNavTitle h1 {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 76px;
+    font-weight: 400px;
+    writing-mode: vertical-rl;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.menuNav h3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    line-height: 36px;
+    color: #3E63DD;
+}
+
+.menuNav p {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    writing-mode: vertical-rl;
+    color: #3E63DD;
+    padding-left: 5px;
+}
+
+.menuNavBottom p {
+    font-family: 'Staatliches', serif;
+    font-size: 18px;
+    line-height: 18px;
+    writing-mode: horizontal-tb;
+    color: #3E63DD;
+    padding-left: 0px;
+    padding-right: 10px;
+    display: inline;
+}
+
+.englishTranslation p {
+    font-family: 'Staatliches', serif;
+    font-size: 32px;
+    line-height: 36px;
+    writing-mode: horizontal-tb;
+    color: #3E63DD;
+    padding-left: 0px;
+    padding-right: 10px;
+    display: inline;
+}
+
+.menuNavDesc p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    line-height: 14px;
+    writing-mode: horizontal-tb;
+    color: #3E63DD;
+    padding-left: 0px;
+    display: inline;
+}
+
+/* Menu Slide */
+.menuSlide {
+    width: 100%;
+    height: 830px;
+    position: relative;
+    float: right;
+    background-color: #ffffff;
+}
+
+.menuSlideContainer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: right;
+    padding-top: 20px;
+}
+
+/* Adjusting Carousel */
+.menuSlide .carousel img {
+    width: 1400px;
+    min-height: 770px;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+
+.menuSlide .carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+
+.menuSlide .carouseel-control {
+    position: relative;
+    z-index: 2;
+}
+
+.menuSlide .carousel-control-prev{
+    margin-left: 250px;
+}
+
+.carousel-indicators {
+    margin-bottom: 30px;
+}
+
+.carousel-caption {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    left: auto;
+    text-align: left;
+}
+
+.menuSlideShade {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to left, #181818 0%, rgba(24, 24, 24, 0) 100%);
+}
+
+@media only screen and (max-width: 600px) {
+.carousel-caption {
+    display: none;
+}
+
+.menuSlideShade {
+    display: none;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+.carousel-control-next {
+    display: none;
+}
+}
+
+/* Carousel Fonts */
+.carousel-caption h3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.carousel-caption p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.carousel-caption a {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+
+/* Web Content Nav */
+.webContentNav {
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.webContentNav .navbar {
+    height: 60px;
+    position: relative;
+}
+
+.webContentNav h1 {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 28px;
+    font-weight: 30px;
+    color: #3E63DD;
+}
+
+.webContentNav a {
+    font-family: 'Staatliches', serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #3E63DD;
+}
+
+/* Web Content Title */
+.webContentTitle {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    float: left;
+}
+
+.webContentTitleText {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 60px;
+    text-align: center;
+    z-index: 2;
+}
+
+.webContentTitleText h1 {
+    font-family: 'Staatliches', serif;
+    font-size: 64px;
+    line-height: 68px;
+    color: #ffffff;
+}
+
+/* Adjusting Carousel for Content */
+.webContentTitle img{
+    height: 180px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Web Content */
+.webContent{
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+}
+
+.genreSection .webContent {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+}
+
+.webContent .container {
+    width: 60%;
+    margin: auto;
+}
+
+.webContent p {
+    font-family: 'Merriweather Sans', san-serif;
+    font-size: 18px;
+    line-height: 1.15;
+}
+
+.webContent h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 1.15;
+    writing-mode: horizontal-tb;
+    color: #4E73E3;
+}
+
+.webContent h3 {
+    font-family: 'Staatliches', serif;
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 20px;
+}
+
+.imageCenter {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.imageCenter img {
+    width: 300px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+.imageCenter {
+    width: 100%;
+}
+
+.imageCenter img {
+    width: 100%;
+    height: auto;
+}
+}
+
+/* History Section Audio */
+.historyMusic {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.historyMusic img {
+    width: 180px;
+    height: auto;
+    position: relative;
+}
+
+.historyMusic audio {
+    width: 180px;
+    position: relative;
+}
+
+.forcePlayerBellow {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.historyMusicSide {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.historyMusicSide img {
+    width: 180px;
+    height: auto;
+    position: relative;
+    vertical-align: middle;
+}
+
+.historyMusicSide audio {
+    width: 180px;
+    position: relative;
+}
+
+.dividerAlbum {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.dividerAudio {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.dividerAudio h2 {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    color: #4E73E3;
+}
+
+/* Artists Section */
+.card {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card-body h5 {
+    font-family: 'Staatliches', serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.card-body h4 {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #4E73E3;
+}
+
+.card-footer {
+    font-family: 'Staatliches', serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #3E63DD;
+}
+
+/* Artists Modal Formating */
+.modal h5 {
+    font-family: 'Staatliches', serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.modal h4 {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #4E73E3;
+}
+
+.modal a {
+    font-family: 'Staatliches', serif;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.modalContent {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.modalContent h2 {
+    font-family: 'Merriweather Sans', san-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    color: unset;
+}
+
+.modalContent a {
+    font-family: 'Staatliches', serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.modalContent h3 {
+    font-family: 'Staatliches', serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+.modal-footer {
+    font-family: 'Staatliches', serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #3E63DD;
+}
+
+/* Alert Section */
+.alert {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+    /* Reseting the Margin */
+    margin: 0px;
+}
+
+.alertNone {
+    display: none;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 130px;
+    position: relative;
+    float: left;
+    background-color: #15161B;
+    z-index: 2;
+}
+
+.footerBorder {
+    width: 80%;
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Footer Text */
+.footer p {
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+/* Padding */
+.paddingSection1 {
+    width: 100%;
+    height: 20px;
+}
